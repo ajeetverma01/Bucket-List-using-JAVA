@@ -3,6 +3,7 @@
 **Bucket List** is a **Command-Line User Interface (CUI) application** built using **Java, JDBC, and SQL**, designed to help users efficiently manage their goals and aspirations. The project is integrated with **XAMPP** for MySQL database management and uses **MySQL Connector/J** for seamless communication between Java and MySQL.
 
 ## 🚀 Features
+- ✅ **User Account System** – Users can create an account and log in.
 - ✅ **Add New Goals** – Insert new items into your bucket list.
 - ✅ **Update Goals** – Modify existing goals to reflect progress.
 - ✅ **Delete Goals** – Remove completed or unwanted goals.
