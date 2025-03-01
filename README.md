@@ -36,5 +36,20 @@ String user = "root"; // Change if needed
 String password = ""; // Change if your MySQL has a password
 ```
 
+### 5️⃣ Run the Application in IntelliJ IDEA
+
+1. Open IntelliJ IDEA.
+
+2. Click File → Open and select the project folder.
+
+3. Ensure the MySQL Connector/J is added to the project dependencies.
+
+4. Locate the main.java file.
+
+5. Click the Run button or execute:
+```
+main.java
+```
+
 
 
