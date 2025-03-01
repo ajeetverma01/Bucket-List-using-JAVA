@@ -33,7 +33,7 @@ cd Bucket-List-using-JAVA
 1. Start **XAMPP** and enable **MySQL**.
 2. Open **phpMyAdmin** and create a new database:
    ```sql
-   CREATE DATABASE bucket_list_db;
+   CREATE DATABASE bucket_list;
    ```
 3. Ensure the database includes **user** and **task** tables for authentication and goal tracking:
    ```sql
