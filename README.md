@@ -28,6 +28,30 @@ git clone https://github.com/ajeetverma01/Bucket-List-using-JAVA.git
 cd Bucket-List-using-JAVA
 ```
 
+### 3️⃣ Set Up the Database
+
+1. Start **XAMPP** and enable **MySQL**.
+2. Open **phpMyAdmin** and create a new database:
+   ```sql
+   CREATE DATABASE bucket_list_db;
+   ```
+3. Ensure the database includes **user** and **task** tables for authentication and goal tracking:
+   ```sql
+   CREATE TABLE user (
+       id INT PRIMARY KEY,
+       name VARCHAR(50) UNIQUE NOT NULL,
+       password VARCHAR(255) NOT NULL
+   );
+
+   CREATE TABLE task (
+       id INT PRIMARY KEY,
+       taskIndex INT,
+       name varchar(50) NOT NULL,
+       about varchar(200),
+       status varchar(30)
+   );
+   ```
+
 ### 4️⃣ Configure Database Connection
 Update the MySQL connection details in your Java file:
 ```java
