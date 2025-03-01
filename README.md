@@ -23,8 +23,8 @@
 
 ### 2️⃣ Clone This Repository
 ```sh
-git clone https://github.com/your-username/bucket-list.git
-cd bucket-list
+git clone https://github.com/ajeetverma01/Bucket-List-using-JAVA.git
+cd Bucket-List-using-JAVA
 ```
 
 ### 4️⃣ Configure Database Connection
@@ -33,12 +33,6 @@ Update the MySQL connection details in your Java file:
 String url = "jdbc:mysql://localhost:3306/bucket_list";
 String user = "root"; // Change if needed
 String password = ""; // Change if your MySQL has a password
-```
-
-### 5️⃣ Compile and Run the Application
-```sh
-javac BucketList.java  
-java BucketList  
 ```
 
 
