@@ -1,3 +1,5 @@
+// I created this class only to test that how the color codes work
+
 public class ColorTest {
     public static void main(String[] args) {
         final String resetColor = "\u001B[0m";
